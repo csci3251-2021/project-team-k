@@ -1,4 +1,3 @@
-# This team hasn't started yet...
 # Introduction
 There are 8 tasks
 -  Task 1: Starting issues
