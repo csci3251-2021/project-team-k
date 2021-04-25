@@ -15,7 +15,7 @@ There are 8 tasks
 
 {% for stu in site.stu %}
   <h2>
-    <a href="{{ stu.url }}">
+    <a href="{{ https://github.com/chuckjee.url }}">
       {{ stu.user }} - {{ stu.name }}
     </a>
   </h2>
