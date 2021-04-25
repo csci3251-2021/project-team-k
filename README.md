@@ -13,9 +13,9 @@ There are 8 tasks
 
 # Contributors
 
-{% for stu in https://csci3251-2021.github.io/project-team-k/.stu %}
+{% for stu in site.stu %}
   <h2>
-    <a href="{{ stu.https://github.com/chuckjee }}">
+    <a href="{{ stu.url }}">
       {{ stu.user }} - {{ stu.name }}
     </a>
   </h2>
