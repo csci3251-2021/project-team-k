@@ -12,6 +12,9 @@ There are 8 tasks
 
 # Contributors
 
+{% for stu in site.stu %}
+  * <a href="https://github.com/{{stu.user}}"><img src="{{stu.image}}" style="width: 50px; height: 50px"></a> @{{stu.user}} ({{stu.name}}) 
+    * {{stu.content}}
+{% endfor %}
 
 **Please read `tasks.md` to start your work.**
- 
