@@ -14,6 +14,7 @@ There are 8 tasks
 # Contributors
 
 {% for stu in site.stu %}
+  <h2>{{ stu.image }}</h2>
   <h2>
     <a href="{{ stu.url }}">
       {{ stu.user }} - {{ stu.name }}
