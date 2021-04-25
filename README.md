@@ -14,13 +14,8 @@ There are 8 tasks
 # Contributors
 
 {% for stu in site.stu %}
-  <h2>{{ stu.image }}</h2>
-  <h2>
-    <a href="{{ stu.url }}">
-      {{ stu.user }} - {{ stu.name }}
-    </a>
-  </h2>
-  <p>{{ stu.content | markdownify }}</p>
+  * <a href="{{ stu.url }}"><img src="{{ stu.image }}" style="width: 50px; height: 50px"></a> @{{stu.user}} ({{stu.name}}) 
+    * {{ stu.content }}
 {% endfor %}
 
 **Please read `tasks.md` to start your work.**
