@@ -17,3 +17,5 @@ There are 8 tasks.
   * <img src="{{stu.image}}" style="width: 50px; height: 50px"> <a href="https://github.com/{{stu.user}}">@{{stu.user}}</a> ({{stu.name}}) 
     * {{stu.content}}
 {% endfor %}
+
+Last updated: {{ site.time }}
