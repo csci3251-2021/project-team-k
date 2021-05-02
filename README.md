@@ -1,6 +1,21 @@
-# This team hasn't started yet...
+# Introduction
+There are 8 tasks.
+-  Task 1: Starting issues
+-  Task 2: Project board
+-  Task 3: Set up readme.md
+-  Task 4: Show your team to the Internet
+-  Task 5: Keep checking...
+-  Task 6: Write C code
+-  Task 7: Get a status badge
+-  Task 8: Promote your repo
 
-Check back later!
+# Code
 
-**Please read `tasks.md` to start your work.**
- 
+# Contributors
+
+{% for stu in site.stu %}
+  * <img src="{{stu.image}}" style="width: 50px; height: 50px"> <a href="https://github.com/{{stu.user}}">@{{stu.user}}</a> ({{stu.name}}) 
+    * {{stu.content}}
+{% endfor %}
+
+Last updated: {{ site.time }}
